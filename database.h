@@ -1,4 +1,4 @@
-#ifndef DATABASE_H
+﻿#ifndef DATABASE_H
 #define DATABASE_H
 
 #include <QObject>
@@ -22,7 +22,7 @@ public:
     bool createTable(QString table_name,QString table_header);
     //插入数据
     bool insertData(QString table_name,QString data);
-
+	int a;
 };
 
 #endif // DATABASE_H
